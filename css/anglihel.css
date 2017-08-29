@@ -1,12 +1,9 @@
-/*
- * Globals
- */
-
+<!-- Globals --------------------------------->
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
+  padding-top: 50px;
 }
-
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -19,6 +16,54 @@ h6, .h6 {
   color: #333;
 }
 
+
+
+<!--------------------------------------------->
+<!-- panel-tabs ------------------------------->
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, .23);
+    border-bottom-color: transparent;
+}
+
+
+
+
+
+<!--------------------------------------------->
 <!-- added 1/30/17 for space around pictures -->
 .gap-right {
   margin-right: 10px; 
@@ -38,6 +83,56 @@ h6, .h6 {
 .caption {
 	font: arial, sans-serif;
     text-align: center;
+}
+
+
+
+<!--------------------------------------------->
+<!-- change navbar-brand font ----------------->
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;  
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+
+
+<!-- make dropdown menus scrollable -->
+a.dropdown-toggle {
+    position: relative;
+}
+a.dropdown-toggle::before {
+    content: '';
+    display: inline-block;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #CCC;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: -2px;
+    right: 7px;
+    display: none;
+}
+a.dropdown-toggle::after {
+    content: '';
+    display: inline-block;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid white;
+    position: absolute;
+    bottom: -2px;
+    right: 8px;
+    z-index: 1001;
+    display: none;
+}
+.open > a.dropdown-toggle::before,
+.open > a.dropdown-toggle::after {
+    display: block;
 }
 
 
