@@ -17,6 +17,33 @@ h6, .h6 {
 }
 
 
+<!-- Specify that the list-item markers should appear inside the content flow (results in an extra indentation) -->
+ul {
+	list-style-position: inside;
+}
+
+
+<!--------------------------------------------->
+<!-- lesson heading jumbotron ----------------->
+
+.jumbotron {
+	padding: 20px 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #808080;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.jumbotron.lesson {
+	padding: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+
+
 
 <!--------------------------------------------->
 <!-- panel-tabs ------------------------------->
