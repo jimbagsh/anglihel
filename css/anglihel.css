@@ -16,6 +16,20 @@ h6, .h6 {
   color: #333;
 }
 
+<!-- recommended to increase base font size -->
+body {
+  font-size: 16px;
+}
+.small {
+  font-size: 12px; /* 75% of the baseline */
+}
+.large {
+  font-size: 20px; /* 125% of the baseline */
+}
+
+
+
+
 
 <!-- Specify that the list-item markers should appear inside the content flow (results in an extra indentation) -->
 ul {
