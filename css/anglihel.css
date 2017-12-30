@@ -29,8 +29,6 @@ body {
 
 
 
-
-
 <!-- Specify that the list-item markers should appear inside the content flow (results in an extra indentation) -->
 ul {
 	list-style-position: inside;
