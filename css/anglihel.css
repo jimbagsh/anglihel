@@ -126,6 +126,30 @@ ul {
 
 
 
+
+<!--- TED video images --->
+imgTED {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+
+
+<!-- used to make smaller panels -->
+.panel-heading-sm{
+    height: 28px;
+    padding: 4px 10px;
+}
+.panel-sm{
+   padding: 5px 10px;
+}
+
+
+
 <!--------------------------------------------->
 <!-- change navbar-brand font ----------------->
 .navbar-brand {
