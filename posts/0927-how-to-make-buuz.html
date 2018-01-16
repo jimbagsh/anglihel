@@ -29,12 +29,14 @@
     <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet" type="text/css" >
 
     <!-- Custom styles for this template -->
-    <link href="../css/jumbotron.css" rel="stylesheet" type="text/css" >
     <link href="../css/anglihel.css" rel="stylesheet" type="text/css" >
     
     <!-- Style sheet for SoundManager2 inline player -->
     <link href="../css/inlineplayer.css" rel="stylesheet" type="text/css" />
     <link href="../css/flashblock.css" rel="stylesheet" type="text/css" />
+
+	<!-- to add Facebook and YouTube icons in menu bar -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -60,7 +62,7 @@
         <div class="col-sm-3 hidden-xs blog-sidebar">
           <div class="sidebar-module">
 			<div class="sidemenu"></div>
-			<h2 style="text-align:center;" class="thumbnail"><b>Information</b></h2>
+			<h2 style="text-align:center;margin-top:10px;" class="thumbnail"><b>Information</b></h2>
 			<p>&nbsp;</p>
 			<div class="thumbnail"><h3 style="text-align:center;"><b>Listen to Words </b><img border="0" src="images/sound.jpg" width="32px" height="32px" imageanchor="1" style="clear: right;"></h3>
 			<img border="2px" src="images/listen.png" width="256px" imageanchor="1" style="clear: right; float: center;"></div>
@@ -73,7 +75,7 @@
         <div class="col-sm-8 col-sm-offset-1 blog-main">
 
           <div class="blog-post">
-            <h2 class="blog-post-title">How to Make BUUZ!</h2>
+            <p class="blog-post-title" style="margin-top:10px;">How to Make BUUZ!</p>
             <div><a href="http://mongolia.gogo.mn/r/151198" target="_blank">originally posted on GoGo.mn 02-23-2017</a> by A.Odontuya</div>
 
 				<p>&nbsp;</p>
@@ -221,24 +223,10 @@
         </div><!-- /.blog-main -->
       </div><!-- /.row -->
     </div><!-- /.container -->
-    </div>
 
-	<div class="container">
-	    <footer>
-	    	<div style="margin-top:30px;">
-				<div class="col-sm-3">
-        			<p>&copy; 2017 Jim Damico</p>
-    			</div>
-    			<div class="col-sm-9">
-    			<div style="text-align:right;">
-    				Audio playable using <a href="http://www.schillmania.com/projects/soundmanager2/" target="_blank">SoundManager2</a><br>
-    				Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>
-    			</div>
-    			</div>
-    		</div>
-    	</footer>
-    </div> <!-- /container -->
-
+<div class="container" style="margin-bottom:30px;">
+<div class="footer-info"></div>	
+</div> <!-- /container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -250,9 +238,8 @@
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
     <!-- used to add menu html -->
 	<script type="text/javascript">$(function(){$(".navbar-menu-posts").load("../navbar-menu-posts.html");});</script>
+	<script type="text/javascript">$(function(){$(".footer-info").load("../footer-info.html");});</script>
 	<script type="text/javascript" src="../js/soundmanager2-nodebug-jsmin.js"></script>
 	<script type="text/javascript" src="../js/inlineplayer.js"></script>
-
-
   </body>
 </html>

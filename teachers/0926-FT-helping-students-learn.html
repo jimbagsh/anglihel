@@ -29,12 +29,14 @@
     <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet" type="text/css" >
 
     <!-- Custom styles for this template -->
-    <link href="../css/jumbotron.css" rel="stylesheet" type="text/css" >
     <link href="../css/anglihel.css" rel="stylesheet" type="text/css" >
     
     <!-- Style sheet for SoundManager2 inline player -->
     <link href="../css/inlineplayer.css" rel="stylesheet" type="text/css" />
     <link href="../css/flashblock.css" rel="stylesheet" type="text/css" />
+
+	<!-- to add Facebook and YouTube icons in menu bar -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
     
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -60,10 +62,8 @@
       
         <div class="col-sm-3 hidden-xs blog-sidebar">
           <div class="sidebar-module">
-         	<h2 style="text-align:center;" class="thumbnail"><b>For Teachers</b></h2>
-			<p>&nbsp;</p>
-			<div class="thumbnail"><h3 style="text-align:center;"><b>Listen to Words </b><img border="0" src="images/sound.jpg" width="32px" height="32px" imageanchor="1" style="clear: right;"></h3>
-			<img border="2px" src="images/listen.png" width="256px" imageanchor="1" style="clear: right; float: center;"></div>
+         	<a href="../teachers.html"><h2 style="text-align:center;margin-top:10px;" class="thumbnail"><b>For Teachers</b></h2></a>
+         	<p><img src="images/teachers.png" class="responsive" width="265px" height="125px"></p>
 			<p>&nbsp;</p>			
 			<div><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FAnglihelcom-208729259183677&tabs=timeline&width=265&height=2400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="265" height="2400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></div>
 
@@ -74,8 +74,10 @@
         <div class="col-sm-8 col-sm-offset-1 blog-main">
 
           <div class="blog-post">
-            <h2 class="blog-post-title">Helping Students Learn</h2>
-
+            <p class="blog-post-title" style="margin-top:10px;">Helping Students Learn</p>
+			<div>by Jim bagsh</div>
+			<p>&nbsp;</p>
+			
 				<p>As a teacher, what is your job?</p>
 				<p>If you said “to teach” I’m sorry to say you are wrong. You might think that the best language teachers are those with the best pronunciation, use the newest methodologies, and always have the funnest games and activities. Those things are just tools. They could have the best pronunciation but always use their native language in class. They could use the newest methodologies but use them incorrectly. They could have awesome games and activities but they don’t help the students improve their English.</p>
 				<p>“Teaching” is about helping the students learn. If the students don't learn, then even the 'best' teacher isn't teaching.</p>
@@ -111,22 +113,9 @@
       </div><!-- /.row -->
     </div><!-- /.container -->
 
-	<div class="container">
-	    <footer>
-	    	<div style="margin-top:30px;">
-				<div class="col-sm-3">
-        			<p>&copy; 2017 Jim Damico</p>
-    			</div>
-    			<div class="col-sm-9">
-    			<div style="text-align:right;">
-    				Audio playable using <a href="http://www.schillmania.com/projects/soundmanager2/" target="_blank">SoundManager2</a><br>
-    				Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>
-    			</div>
-    			</div>
-    		</div>
-    	</footer>
-    </div> <!-- /container -->
-
+<div class="container" style="margin-bottom:30px;">
+<div class="footer-info"></div>	
+</div> <!-- /container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -138,9 +127,8 @@
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
     <!-- used to add menu html -->
 	<script type="text/javascript">$(function(){$(".navbar-menu-posts").load("../navbar-menu-posts.html");});</script>
+	<script type="text/javascript">$(function(){$(".footer-info").load("../footer-info.html");});</script>
 	<script type="text/javascript" src="../js/soundmanager2-nodebug-jsmin.js"></script>
 	<script type="text/javascript" src="../js/inlineplayer.js"></script>
-
-
   </body>
 </html>

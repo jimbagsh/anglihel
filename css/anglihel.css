@@ -35,24 +35,6 @@ ul {
 }
 
 
-<!--------------------------------------------->
-<!-- lesson heading jumbotron ----------------->
-
-.jumbotron {
-	padding: 20px 15px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	color: #ffffff;
-	background-color: #808080;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.jumbotron.lesson {
-	padding: 15px;
-	margin-bottom: 20px;
-	margin-top: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-align: center;
-}
 
 
 
@@ -150,6 +132,7 @@ imgTED {
 
 
 
+
 <!--------------------------------------------->
 <!-- change navbar-brand font ----------------->
 .navbar-brand {
@@ -197,46 +180,6 @@ a.dropdown-toggle::after {
 .open > a.dropdown-toggle::after {
     display: block;
 }
-
-
-
-
-<!-- tooltip popover -------------------------------->
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-.mytooltip + .tooltip > .tooltip-inner {
-	background-color: #eeeeee;
-	color: #000;
-	font-size: 16px;
-    text-align: center;
-    opacity: 1;
-}
-.mytooltip + .tooltip > .tooltip-arrow {
-	border-bottom-color: #fff;
-	background-color: #fff;
-	color: #fff;
-}
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    border-radius: 6px;
-    padding: 5px 0;
-    
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 50%;
-    margin-left: -60px;
-}
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-
 
 
 
@@ -299,13 +242,13 @@ a.dropdown-toggle::after {
  */
 
 .blog-header {
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 .blog-title {
   margin-top: 30px;
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: normal;
 }
 .blog-description {
