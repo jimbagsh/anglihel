@@ -1,5 +1,5 @@
 <!-- Globals --------------------------------->
-body {
+body, blog-post {
   font-size: 16px;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
@@ -116,6 +116,7 @@ ul { list-style-position: inside; /* (results in an extra indentation) */ }
 .blog-post { margin-bottom: 60px; }
 .blog-post-title { margin-bottom: 5px; font-size: 40px; }
 .blog-post-meta { margin-bottom: 20px; color: #999; }
+.blog-text { font-size:16px; }
 
 
 
